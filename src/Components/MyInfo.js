@@ -12,7 +12,7 @@ const MyInfo = () => {
         margin: "5px"
     }
     return (
-        <div>
+        <main>
             <h1 style={style}>My Name is Istiak</h1>
             <p style={{padding: "10px", margin: "5px"}}>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos nulla, similique rem voluptatum unde nisi iure? Voluptatibus aliquid voluptate iusto dolorum perspiciatis eligendi ex dolor quos! Est doloremque voluptatum natus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos nulla, similique rem voluptatum unde nisi iure? Voluptatibus aliquid voluptate iusto dolorum perspiciatis eligendi ex dolor quos! Est doloremque voluptatum natus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos nulla, similique rem voluptatum unde nisi iure? Voluptatibus aliquid voluptate iusto dolorum perspiciatis eligendi ex dolor quos! Est doloremque voluptatum natus!
@@ -22,7 +22,7 @@ const MyInfo = () => {
                 <li style={listStle}>Malaysia</li>
                 <li style={listStle}>Sylhet</li>
             </ul>
-        </div>
+        </main>
     )
 }
 

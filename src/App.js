@@ -1,16 +1,21 @@
 import React from 'react'
 import './App.css';
 
-import Navber from './Components/Navber'
+import Header from './Components/Header'
 import MyInfo from './Components/MyInfo'
+import Footer from './Components/Footer';
 
 
 
 function App() {
   return (
     <div className="App">
-     <Navber />
+  
+     <Header />
      <MyInfo />
+     <Footer />
+
+
     </div>
   );
 }

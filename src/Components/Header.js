@@ -1,13 +1,13 @@
 import React from 'react'
 import NavberTitle from './NavberTitle'
 
-const Navber = () => {
+const Header = () => {
     const title = ['Home', 'About', 'Contact']
     return (
-        <div>
+        <header>
             <NavberTitle title = {title} />
-        </div>
+        </header>
     )
 }
 
-export default Navber;
+export default Header;
