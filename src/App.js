@@ -3,7 +3,9 @@ import './App.css';
 
 import Header from './Components/Header'
 import MyInfo from './Components/MyInfo'
-import Footer from './Components/Footer';
+import Footer from './Components/Footer'
+import Todo from './Components/Todo'
+import Contacts from './Components/Contact/Contacts'
 
 
 
@@ -25,6 +27,8 @@ function App() {
   
      <Header />
      <MyInfo />
+     <Todo />
+     <Contacts />
      <Footer />
 
      <h3>
