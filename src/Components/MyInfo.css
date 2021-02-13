@@ -1,0 +1,11 @@
+.title {
+    padding: 10px;
+    margin: 10px;
+    background-color: dodgerblue
+}
+
+.list {
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 5px
+}
