@@ -7,13 +7,14 @@ const ContactCard = (props) => {
         padding: "10px",
         border: "2px solid"
     }
-    const { img, name, number, email } = props.contact
+    const cats = props.cats
+    const { img, name, number, email } = cats  
     return (
         <div style={styles} className="Contacts">
-                <img alt="billuImage" src={img}/>
-                <h3>{name}</h3>
-                <p>{number}</p>
-                <p>{email}</p>
+            <img alt="billuImage" src={img}/>
+            <h3>{name}</h3>
+            <p>{number}</p>
+            <p>{email}</p>
         </div>
     )
 }

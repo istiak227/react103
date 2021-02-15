@@ -30,10 +30,14 @@ const Contacts = () => {
     ]
     return (
         <div>
-            <ContactCard contact = {contactData[0]} />
-            <ContactCard contact = {contactData[1]} />
-            <ContactCard contact = {contactData[2]} />
-            <ContactCard contact = {contactData[3]} />
+            {/* 
+                This One passing the whole contactdata to its child
+            <ContactCard cats = {contactData} /> */
+            }
+            <ContactCard cats = {contactData[0]} />
+            <ContactCard cats = {contactData[1]} />
+            <ContactCard cats = {contactData[2]} />
+            <ContactCard cats = {contactData[3]} />
         </div>
     )
 }
