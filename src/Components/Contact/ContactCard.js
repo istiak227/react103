@@ -9,12 +9,15 @@ const ContactCard = (props) => {
     }
     const cat = props.cat
     const { img, name, number, email } = cat  
+    const displayBillu = () => alert(`This is ${name}`)
+    
     return (
-        <div style={styles} className="Contacts">
+        <div style={styles}>
             <img alt="billuImage" src={img}/>
             <h3>{name}</h3>
             <p>{number}</p>
             <p>{email}</p>
+            <button onClick={displayBillu}>View The Cat</button>
         </div>
     )
 }
