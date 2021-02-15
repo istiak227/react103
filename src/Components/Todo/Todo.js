@@ -1,5 +1,6 @@
 import React from 'react'
 import TodoItem from './TodoItem'
+import todosData  from './todosData'
 
 const Todo = () => {
     const styles = {
@@ -12,13 +13,11 @@ const Todo = () => {
         border: "2px solid",
         padding: "30px"
     }
+    const todoDataComponents = todosData.map(todo => <TodoItem key={todo.id} todo={todo} />)
     return (
         <div style={styles}>
             <h3>My Todo's</h3>
-            <TodoItem item={"This is a Todo Item 1"} />
-            <TodoItem item={"This is a Todo Item 2"} />
-            <TodoItem item={"This is a Todo Item 3"} />
-            <TodoItem item={"This is a Todo Item 4"} />
+            {todoDataComponents}
         </div>
     )
 }
