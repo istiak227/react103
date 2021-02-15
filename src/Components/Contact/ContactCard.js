@@ -7,8 +7,8 @@ const ContactCard = (props) => {
         padding: "10px",
         border: "2px solid"
     }
-    const cats = props.cats
-    const { img, name, number, email } = cats  
+    const cat = props.cat
+    const { img, name, number, email } = cat  
     return (
         <div style={styles} className="Contacts">
             <img alt="billuImage" src={img}/>

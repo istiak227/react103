@@ -28,16 +28,22 @@ const Contacts = () => {
             email: "billu@gmail.com"
         }
     ]
+
+    const conatactComponents = contactData.map((cat,index) => <ContactCard key={index} cat = {cat} />)
+
     return (
         <div>
             {/* 
                 This One passing the whole contactdata to its child
             <ContactCard cats = {contactData} /> */
             }
-            <ContactCard cats = {contactData[0]} />
+
+            {conatactComponents}
+
+            {/* <ContactCard cats = {contactData[0]} />
             <ContactCard cats = {contactData[1]} />
             <ContactCard cats = {contactData[2]} />
-            <ContactCard cats = {contactData[3]} />
+            <ContactCard cats = {contactData[3]} /> */}
         </div>
     )
 }
