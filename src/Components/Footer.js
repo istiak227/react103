@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer>
-            <h3>This is My Footer</h3>
+            <h3 style={{backgroundColor: "red"}}>This is My Footer</h3>
         </footer>
     )
 }

@@ -6,6 +6,7 @@ import MyInfo from './Components/MyInfo'
 import Footer from './Components/Footer'
 import Todo from './Components/Todo'
 import Contacts from './Components/Contact/Contacts'
+import Jokes from './Components/Jokes/Jokes'
 
 
 
@@ -29,6 +30,7 @@ function App() {
      <MyInfo />
      <Todo />
      <Contacts />
+     <Jokes /> 
      <Footer />
 
      <h3>
