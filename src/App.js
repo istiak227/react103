@@ -15,7 +15,8 @@ class App extends React.Component {
     this.state = {
       name: "Istiak Ahmed",
       age: "25",
-      isLoggedIn: true
+      isLoggedIn: true,
+
     }
   }
   
