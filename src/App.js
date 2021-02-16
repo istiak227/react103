@@ -14,8 +14,7 @@ class App extends React.Component {
     super()
     this.state = {
       name: "Istiak Ahmed",
-      age: "25",
-      isLoggedIn: true,
+      isLoggedIn: true
 
     }
   }
@@ -25,16 +24,13 @@ class App extends React.Component {
     let wordDisplay
     isLoggedIn ? wordDisplay = "in"
     : wordDisplay = "Out"
-    
     return (
       <div className="App">
        <Header />
-       <MyInfo name={this.state.name} age={this.state.age} />
-
+       <MyInfo name={this.state.name} />
        <h1>You are Currently Logged {wordDisplay}</h1>
        {/* {isLoggedIn ? <h1>Your are looged (in)</h1>
        : <h1>You are logged (out)</h1>} */}
-
        <Todo />
        <Contacts />
        <Jokes /> 
