@@ -8,6 +8,7 @@ import Todo from './Components/Todo/Todo'
 import Contacts from './Components/Contact/Contacts'
 import Jokes from './Components/Jokes/Jokes'
 import Greeting from './Components/Greeting'
+import Practice from './Components/Practice'
 
 class App extends React.Component {
   constructor () {
@@ -31,6 +32,7 @@ class App extends React.Component {
        <h1>You are Currently Logged {wordDisplay}</h1>
        {/* {isLoggedIn ? <h1>Your are looged (in)</h1>
        : <h1>You are logged (out)</h1>} */}
+       <Practice />
        <Todo />
        <Contacts />
        <Jokes /> 

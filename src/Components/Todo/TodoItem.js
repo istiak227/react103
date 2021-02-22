@@ -3,7 +3,7 @@ import './TodoItem.css'
 
 const TodoItem = (props) => {
     const changeTodoStatus = () => {
-
+        props.handleChange(props.todo.id)
     }
     return (
         <div className="todo-item">

@@ -12,9 +12,7 @@ class MyInfo extends React.Component {
 
     increaseAge() {
         this.setState(prevState => {
-            return {
-                age: prevState.age + 1
-            }
+            return {age: prevState.age + 1}
         })
     }
     
