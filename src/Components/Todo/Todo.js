@@ -26,8 +26,7 @@ class Todo extends React.Component {
             const updatedTodos = currentState.todos.map(todo => {
                 if (todo.id === id) {
                     todo.completed = !todo.completed
-                }
-                return todo
+                } return todo
             })
             return {
                 todos: updatedTodos
