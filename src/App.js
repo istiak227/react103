@@ -11,6 +11,7 @@ import Greeting from './Components/Greeting'
 import Practice from './Components/Practice'
 import Conditional from './Components/ConditionalRendering/Conditional';
 import ConditionalApp from './Components/ConditionalRendering/ConditionalApp';
+import StarWars from './Components/StarWarsApi/StarWars';
 
 class App extends React.Component {
   constructor () {
@@ -47,6 +48,7 @@ class App extends React.Component {
     return (
       <div className="App">
        <Header />
+       <StarWars />
        <MyInfo name={this.state.name} />
        {
          this.state.isLodding ? <h2>Lodding.....</h2>

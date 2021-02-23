@@ -9,7 +9,6 @@ class Greeting extends Component {
         } else if (hour >= 12 && hour < 17) {timeOfDay = "afternoon"
         } else {timeOfDay = "night"
         }
-        
         return (
             <h3>Good {timeOfDay}!</h3>
         )
